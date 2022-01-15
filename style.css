@@ -9,10 +9,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
-    width: 1440px;
     background-color: #FFFFFF;
 }
 .for-influencer{
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,7 +49,10 @@ body{
 .frist-journey h1{
     font-size: 50px;
     font-weight: 700;
-
+    margin-left: 50px;
+}
+.influencer-journey{
+    margin-left: 50px;
 }
 .journey-button{
     width: 120px;
@@ -200,4 +203,123 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*------------------------- Media Quires--------------------------- */
+
+/* ---------Mobile Device------------ */
+@media only screen and (max-width: 688px) {
+    
+    .for-influencer h3{
+        width: 100%;
+        text-align: center;
+
+    }
+    .influencer{
+        display: none;
+    }
+    .influencer-journey p{
+        display: none;
+
+    }
+    .start-journey{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .start-journey h1{
+        font-size: 30px;
+    }
+    .journey-camera{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        flex-direction: column;
+        text-align:none;
+        align-items: flex-start;
+    }
+    .collection{
+        width: 100%;
+    }
+    .all-products{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 200px;
+    }
+    .all-in-one{
+        width: 100%;
+    
+    }
+    .for-all{
+        flex-direction: column;
+    }
+    .for-join{
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+    }
+
+}
+/* -----------Tablet Device---------- */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    .for-influencer h3{
+        width: 100%;
+        text-align: center;
+
+    }
+    .influencer{
+        display: none;
+    }
+    .influencer-journey p{
+        display: none;
+
+    }
+    .start-journey{
+        width: 100%;
+        flex-direction:row;
+        align-items: center;
+        
+        
+    }
+    .start-journey h1{
+        font-size: 30px;
+    }
+    .journey-camera{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        flex-direction: column;
+        text-align:center;
+        align-items: flex-start;
+    }
+    .collection{
+        width: 100%;
+    }
+    .all-products{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-right: 200px;
+    }
+    .all-in-one{
+        width: 100%;
+    
+    }
+    .for-all{
+        flex-direction: column;
+    }
+    .for-join{
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+    }
 }
