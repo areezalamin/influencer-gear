@@ -1,0 +1,204 @@
+/*----- Google Fonts (Poppins)---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Prompt&family=Roboto:wght@500&display=swap');
+
+/* ---------------Start
+                        ----------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+.for-influencer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.influencer a{
+    text-decoration: none;
+
+}
+.influencer{
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    justify-items: center;
+}
+/* --------------------------------------------Start Main Part------------------------- */
+
+
+/* ----------------------------------------------Section-1------------------------------- */
+
+.start-journey{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.frist-journey{
+    width: 580px;
+    height: 270px;
+
+}
+.frist-journey h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.journey-button{
+    width: 120px;
+    height: 25px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+.journey-camera{
+    background-image: url(images/Circle\ design.svg);
+    width: 475px;
+    height: 475px;
+}
+.journey-camera img{
+    width: 415px;
+    height: 440px;
+}
+.journey-camera:hover img{
+    transform:rotate(7200000deg);
+    transition: transform 300s ease-in-out;
+}
+/* --------------------------------------------Section-2 -------------------------------*/
+
+.logo{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+/* -----------------------------------------Section-3 ---------------------------*/
+.collection{
+    width: 1050px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    
+}
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+
+}
+article{
+    width: 330px;
+    height: 475px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-shadow: 30px 30px 30px -30px #AAAAAA;
+}
+article img{
+    width: 95%;
+    height: 255px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+    color: #18191F;
+}
+.price{
+    font-size: 25px;
+    font-weight: 300;
+    color: #000000;
+}
+.rating{
+    font-size: 10px;
+    color: orange;
+
+}
+.number{
+    font-size: 15px;
+    color: #5E6366;
+}
+.collection p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+h4{
+    color:#E02C6D ;
+    text-align: end;
+    margin-left: 200px;
+}
+
+/*------------------------------------------ Section-4------------------------------- */
+
+.al-in-one{
+    width: 1110px;
+}
+.for-all{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+}
+.for-all img{
+    width: 400px;
+    height:270 px;
+    border-radius: 10px;
+}
+.for-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.for-details{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.for-join{
+    width: 100px;
+    height: 25px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+/* ---------------------Footer -----------------------------------*/
+footer{
+    height: 240px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
